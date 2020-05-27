@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 Training Assignment</title>
+    <!-- bootstrap css Cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- bootstrap js cdn -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2def85bff8.js" crossorigin="anonymous"></script>
+    
+    <!-- style css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navbar navbar-dark navbar-custom">
+        <h1 class="navbar-brand h1-heading" >Week 1 Assignment</h1>
+    </div>
+    <div class="container">
+    <section class="row html-section ">
+        <div class="col-lg-6">
+            <h2 class= "html-heading"><i class="fas fa-code html-icon"></i> Sample HTML Implementation</h2>
+            <p class="info-para"> A sample profile creator. This form will create a sample profile in the JS section present below.</p>
+            
+        </div>
+        
+        <div class="form-section">
+        <form class="col-lg-2 " onsubmit="return false" method="GET">
+            <label for="firstname" class="form-label">First Name</label>
+            <input type="text" name="firstname" id="fname " placeholder="enter your first name">
+
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="text" name="lastname" id="lname " placeholder="enter your lastname name">
+
+            <label for="email" class="form-label">E-Mail</label>
+            <input type="email" name="email" id="email " placeholder="enter your email">
+
+            <label for="gender" class="form-label">Gender</label>
+            <select name="gender" id="gender ">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="education" class="form-label">Highest Qualification</label>
+            <input type="text" name="education" id="edu" placeholder="Highest Qualification">
+
+            <label for="contact" class="form-label">Contact Number</label>
+            <input type="text" name="contact" id="contact" placeholder="enter your contact">
+
+            <button class="submit btn btn-outline-dark" onclick="displayInfo()"> Submit</button>
+        </form>
+    </div>
+    </section>
+    </div>
+
+    <div class="container-fluid css1">
+        <section class="row">
+            <div class="col-lg-12">
+                <img src="" alt="">
+            </div>
+            <h2 class="col-lg-12 css-heading"><i class="fab fa-sass sass-icon"></i> CSS Using SASS</h2>
+            <div class="col-lg-4 css-h3-1">
+                <h3><i class="fas fa-check-circle clean-icon"></i>  Clean</h3>
+                <p>Keeps Your CSS clean.</p>
+            </div>
+
+            <div class="col-lg-4 css-h3-2">
+                <h3><i class="fas fa-indent easy-icon"></i> Easy</h3>
+                <p>Easy to Interpret.</p>
+            </div>
+
+            <div class="col-lg-4 css-h3-3">
+                <h3><i class="fas fa-bullseye less-icon"></i>  Less</h3>
+                <p>Less Code Lines.</p>
+            </div>
+        </section>
+        <video  src="a.webm" class="css-video" controls ></video>
+
+        <section class="row js-heading">
+            <div class="col-lg-12 ">
+               <h3 class="js-h3"><i class="fab fa-js"></i> Sample JS Implementation.</h3>
+            </div>
+            <div class="col-lg-6 info-block">
+                <div id="profile-img">
+
+                </div>
+                <p class="label-fullname">Full Name : <span id="new-fullname"> </span> </p>
+                <p class="label-email">Email : <span id="new-email"> </span> </p>
+                <p class="label-gender">Gender : <span id="new-gender"> </span> </p>
+                <p class="label-contact">Contact : <span id="new-contact"> </span> </p>
+                <p class="label-education">Education : <span id="new-education"> </span> </p>
+                
+                
+            </div>
+        </section>
+    </div>
+
+    
+
+
+    <script src='app.js'></script>
+</body>
+</html>

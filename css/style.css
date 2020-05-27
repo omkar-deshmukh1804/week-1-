@@ -1,0 +1,217 @@
+body {
+  background-color: rgba(68, 67, 67, 0.103);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .navbar-brand {
+  text-align: center;
+  margin-left: 40rem;
+  padding: 20px;
+  font-size: 2.5rem;
+}
+
+.navbar-custom {
+  background-color: #222831;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.container .html-icon:hover {
+  -webkit-animation: spin-animation 0.5s;
+          animation: spin-animation 0.5s;
+}
+
+@-webkit-keyframes spin-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes spin-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+.container .html-heading {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+  margin-top: 20px;
+  right: 10px;
+}
+
+.container .info-para {
+  text-align: justify;
+  font-size: 1.2rem;
+  width: 60%;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.container .form-section {
+  position: relative;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  left: 100px;
+  border: solid 1px #222831;
+  width: 50%;
+}
+
+.container .form-section .form-label {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  width: 300%;
+}
+
+.container .form-section #fname, .container .form-section #lname, .container .form-section #email, .container .form-section #contact, .container .form-section #gender, .container .form-section #edu {
+  margin-bottom: 10px;
+  width: 15rem;
+}
+
+.container .form-section .submit {
+  margin-top: 10px;
+}
+
+.container-fluid {
+  margin-top: 50px;
+  color: white;
+  background-color: #222831;
+}
+
+.container-fluid .css-heading {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+.container-fluid .css-h3-1, .container-fluid .css-h3-2, .container-fluid .css-h3-3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.container-fluid .clean-icon:hover {
+  -webkit-animation: spin-animation 0.5s;
+          animation: spin-animation 0.5s;
+}
+
+.container-fluid .easy-icon:hover {
+  -webkit-animation: spin-animation 0.5s;
+          animation: spin-animation 0.5s;
+}
+
+.container-fluid .less-icon:hover {
+  -webkit-animation: spin-animation 0.5s;
+          animation: spin-animation 0.5s;
+}
+
+.container-fluid .sass-icon:hover {
+  -webkit-animation: zoom-in 1.5s;
+          animation: zoom-in 1.5s;
+}
+
+@keyframes spin-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes zoom-in {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(359deg);
+            transform: rotateZ(359deg);
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(359deg);
+            transform: rotateZ(359deg);
+  }
+}
+
+.container-fluid .css-video {
+  display: inline-block;
+  width: 100%;
+  height: 320px;
+  margin-bottom: 50px;
+}
+
+.container-fluid .js-heading {
+  margin-top: 50px;
+  background-color: #c1c1c1;
+  color: #222831;
+}
+
+.container-fluid .js-heading .js-h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.container-fluid .js-heading .label-fullname, .container-fluid .js-heading .label-email, .container-fluid .js-heading .label-gender, .container-fluid .js-heading .label-contact, .container-fluid .js-heading .label-education {
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-weight: bold;
+  margin: 10px 50px;
+}
+
+.container-fluid .js-heading .info-block {
+  background-color: #222831;
+  color: whitesmoke;
+  position: relative;
+  left: 400px;
+  margin-bottom: 50px;
+}
+
+.container-fluid .profile-img, .container-fluid img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+}
+/*# sourceMappingURL=style.css.map */
